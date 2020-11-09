@@ -7,10 +7,22 @@
     <style>
         html, body{
             margin: 0;
+            overflow: hidden;
+        }
+
+        .container{
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        iframe{
+            transform: translate(-8%, 0);
         }
     </style>
 </head>
 <body>
-    <iframe style="min-height: 720px;width: 100%;" src="https://photobooth.orchardroad.org/orbaxmas" frameBorder="0" allow="camera;microphone"></iframe>
+    <div class="container">
+        <iframe style="min-height: 720px;width: 120%;" src="https://photobooth.orchardroad.org/orbaxmas" frameBorder="0" allow="camera;microphone"></iframe>
+    </div>
 </body>
 </html>
